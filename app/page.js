@@ -163,7 +163,7 @@ export default function Home() {
                 {eighthGradeYear && accessToken && (
                     <div className="mt-12 fade-in">
                         <h2 className="text-2xl font-bold mb-6 text-center">
-                            Class of {eighthGradeYear} (approx.)
+                            Top 10 Songs from May {eighthGradeYear}
                         </h2>
 
                         {error && (
